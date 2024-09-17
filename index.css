@@ -58,6 +58,15 @@
   text-align: center;
 }
 
+.projects {
+  margin-top: 100px;
+}
+
+.hero__img {
+  max-width: 766px;
+  max-height: 625px;
+}
+
 .hero__description {
   font-family: 'Montserrat';
   font-size: 16px;
@@ -70,4 +79,79 @@
   font-size: 40px;
   font-weight: 800;
   color: #E85353;
+}
+
+.projects__content {
+  text-align: center;
+}
+
+.projects__cards {
+  display: flex;
+  margin-top: 50px;
+}
+
+.projects__card__titles {
+  text-align: start;
+}
+
+.projects__card {
+  width: 317px;
+  height: 440px;
+  border-radius: 8px;
+}
+
+.projects__card:hover {
+  cursor: pointer;
+  width: 317px;
+  height: 440px;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+.projects__cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.projects__card__img {
+  border-radius: 8px;
+}
+
+.projects__card__title {
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #E85353;
+}
+
+.projects__card__description {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.projects__card__btn {
+  cursor: pointer;
+  margin-top: 10px;
+  background: #E85353;
+  color: #fff;
+  border: transparent none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+.projects__card__wrapper {
+  padding: 30px;
+}
+
+.projects__text {
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
 }
