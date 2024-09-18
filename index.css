@@ -155,3 +155,67 @@
   font-weight: 800;
   color: #000000;
 }
+
+.about {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.about__block {
+  display: flex;
+  margin-top: 50px;
+}
+
+
+.about__content {
+  text-align: center;
+}
+
+.about__block {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.about__block__title {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.about__block__text {
+  font-family: 'Montserrat';
+  text-align: start;
+  font-size: 18px;
+  width: 453.91px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.about__block__description {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.about__titles__title {
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.about__titles__description {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.about__titles {
+  margin: 0 auto;
+  width: 588px;
+}
